@@ -1,0 +1,146 @@
+.ss-bigbox{
+    height: 100%;
+    background-color: #fff;
+}
+.s-bigbox{
+    height: 2rem;
+    width: 100%;
+}
+.s-img{
+    float: left;
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+    margin: 0.25rem 0.2rem 0.25rem 0 ;
+
+}
+.s-smallbox{
+   float: left;
+  
+}
+.s-name{
+   
+    margin-bottom: 0.2rem;
+    padding-top: 0.2rem;
+    font-size: 16px;
+    color: rgb(121, 118, 118);
+}
+.s-price{
+    float: left;
+    margin-right: 0.4rem;
+    font-size: 16px;
+    color: rgb(121, 118, 118);
+}
+.s-count{
+    float: right;
+    font-size: 14px;
+    color: rgb(121, 118, 118);
+}
+.s-total{
+    font-size: 16px;
+    color: rgb(121, 118, 118);
+    float: right;
+    margin-top: 1.4rem;
+    margin-right: 0.2rem;
+}
+.s-box .am-list-item.am-checkbox-item .am-list-thumb .am-checkbox {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 44px;
+}
+.sc-bottom{
+    height: 0.8rem;
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    bottom: 1rem;
+    left: 0;
+  
+}
+.dc-gotoShop{
+    float: left;
+    width: 15%;
+    text-align: center;
+    // padding: 0 0.2rem;
+}
+.dc-add{
+    width: 59%;
+    float: right;
+    height: 100%;
+    // padding: 0.1rem;
+    text-align: right;
+    font-size: 14px;
+    color: rgb(167, 167, 167);
+}
+.dc-gotoShop p{
+    color: rgb(124, 124, 124);
+    font-size: 12px;
+
+}
+.iconfont {
+    font-size: 18px;
+    color: rgb(124, 124, 124);
+}
+.dc-buy{
+    width: 50%;
+    height: 100%;
+    line-height: 0.8rem;
+    font-size: 16px;
+    border-radius: 0;
+    color: #fff;
+    background-color: rgb(70, 136, 96);
+}
+.dc-addCar{
+    width: 50%;
+    font-size: 16px;
+    line-height: 0.8rem;
+    height: 100%;
+    border-radius: 0;
+    color: #fff;
+    background-color: rgb(63, 66, 65);
+}
+.sc-step{
+    float: left;
+    margin-left: 0.7rem;
+}
+.sc-check{
+    float: left;
+    margin: 0.8rem 0.2rem;
+}
+.tr {
+    height: 100px;
+    background-color: #fff;
+    clear: both;
+    border-radius: 5px;
+    color:#585552;
+    border: 1px solid #eee;
+    margin-top: 3px;
+    
+    li {
+        display:table-cell;vertical-align:middle;
+        float: left;
+        height: 100%;
+        text-align: center;
+        font-size: 14px;
+        line-height: 100px;
+        img{
+            width: 95%;
+            height: 95%;
+        }
+    }
+}
+.cc-heji{
+    background-color: #fff;
+    padding: 0.2rem;
+}
+.cc-total{
+    float: right;
+    margin: 0 0.4rem;
+}
+.cc-carNum{
+    float:right;
+}
+

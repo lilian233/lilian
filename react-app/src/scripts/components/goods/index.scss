@@ -1,0 +1,63 @@
+.bigbox1{
+    float: left;
+    padding-top: 10px;
+    margin-bottom: 40px;
+    background-color: rgb(248, 248, 248);
+}
+.itemBox1{
+    width: 47%;
+    float: left;
+    margin-left: 2%;
+    margin-bottom: 3%;
+    border: 1px solid #eee;
+    border-radius: 0.05rem;
+    background-color: #fff;
+}
+.itemBox1 img{
+    width: 100%;
+}
+.itemBox1 .text{
+    color: rgb(129, 129, 129);
+    padding-left: 0.2rem;
+    padding-top: 0.2rem;
+    overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp:2;
+        -webkit-box-orient: vertical;
+}
+.desc{
+    color: rgb(145, 145, 145);
+    font-size: 12px;
+}
+.pbox{
+    padding: 0.2rem;
+}
+.price{
+   font-size: 16px;
+   font-weight: 600;
+   color:#000
+}
+.sell{
+    font-size: 12px;
+    color: rgb(129, 129, 129);
+    float: right;
+}
+.oldp{
+    text-decoration: line-through;
+    font-size: 12px;
+    color:rgb(145, 145, 145) ;
+    padding-left: 0.1rem;
+}
+a {
+    color: rgb(129, 129, 129);
+    ;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color:rgb(129, 129, 129); 
+     text-decoration:none; 
+     cursor:pointer;  
+}

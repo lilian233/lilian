@@ -1,0 +1,73 @@
+.d-addbox{
+    margin-bottom: 1.8rem;
+    background-color: #fff;
+    height: 100%;
+}
+.a-smallBox{
+    height: 1.6rem;
+    
+}
+ .am-list-item{
+    height: 1.6rem;
+}
+.am-list .am-list-item.am-radio-item .am-list-line .am-list-extra .am-radio-inner {
+    right: 15px;
+    top: 31px !important;
+}
+.a-list .am-list-content {
+    flex: 1 1;
+    color: #000;
+    font-size: 14px !important;
+    line-height: 1.5;
+    text-align: left;
+    width: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.am-radio.am-radio-checked .am-radio-inner {
+    &::after{
+        display: block;
+        border-color: rgb(47, 102, 68) !important;
+    }
+  
+}
+.d-queren{
+    width: 100%;
+    position: fixed !important;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(55, 121, 80) !important;
+    color: #fff !important;
+    z-index: 11;
+
+}
+.d-adda{
+    width: 100%;
+    position: fixed !important;
+    bottom: 1rem;
+    left: 0;
+    color: rgb(47, 102, 68) !important;
+    border: 1px solid rgb(47, 102, 68)!important ;
+    z-index: 11;
+
+}
+
+.dd-box{
+    margin: 0.4rem;
+    text-align: center;
+
+}
+.d-del{
+    color: rgb(47, 102, 68) !important;
+    border: 1px solid rgb(47, 102, 68)!important ;
+    font-size: 12px  !important;
+
+}
+.d-update{
+    background-color: rgb(55, 121, 80) !important;
+    color: #fff !important;
+    font-size: 12px !important;
+}

@@ -1,0 +1,107 @@
+.my-drawer {
+    position: relative;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+    margin-bottom: 0.8rem;
+}
+
+.my-drawer .am-drawer-sidebar {
+    width: 21%;
+    background-color: #fff;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.my-drawer .am-drawer-sidebar .am-list {
+
+    padding: 0;
+    width: 100%;
+}
+
+.am-list-item {
+    min-height: 50px !important;
+}
+
+.am-list-item .am-list-line .am-list-content {
+    flex: 1 1;
+    color: #000;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    width: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.am-drawer-content {
+    padding-top: 0 !important;
+    // width: 85%;
+}
+
+.active {
+    border-bottom: 2px solid #414c3f;
+    color: #414c3f;
+}
+
+.bigbox1 {
+    float: left;
+    padding-top: 10px;
+    margin-bottom: 40px;
+    background-color: rgb(248, 248, 248);
+}
+
+.itemBox2 {
+    width: 47.5%;
+    float: left;
+    margin-left: 1%;
+    margin-bottom: 3%;
+    border: 1px solid #eee;
+    border-radius: 0.05rem;
+    background-color: #fff;
+}
+
+.itemBox2 img {
+    width: 100%;
+}
+
+.itemBox2 .text {
+    color: rgb(145, 145, 145) ;
+    padding-left: 0.2rem;
+    padding-top: 0.2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.desc {
+    color: rgb(145, 145, 145);
+    font-size: 10px;
+}
+
+.pbox {
+    padding: 0.2rem;
+}
+
+.price {
+    font-size: 12px !important;
+    font-weight: 600;
+}
+
+.sell {
+    font-size: 10px;
+    color: rgb(129, 129, 129);
+    float: right;
+}
+
+.oldp {
+    text-decoration: line-through;
+    font-size: 12px;
+    color: rgb(145, 145, 145);
+    padding-left: 0.1rem;
+}

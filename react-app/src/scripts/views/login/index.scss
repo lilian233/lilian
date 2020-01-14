@@ -1,0 +1,54 @@
+.bigbox{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(53, 77, 58, 0.89);
+    position: relative;
+    background: url("../../../assets/images/bcg1.jpg") center center;
+}
+.l-btn{
+    position: absolute !important;
+    right:10px;
+    bottom:95px;
+}
+.l-btn span{
+    
+    color: rgb(34, 54, 41);
+}
+.l-box{
+    position: absolute;
+    top: 30%;
+    left:4% ;
+    padding:0;
+  
+}
+.am-list-body {
+    border-bottom: none;
+    background-color:rgba(76, 107, 82, 0.808);
+    padding-bottom: 10px;
+    border-radius: 5px;
+    
+}
+.am-list-item.am-input-item {
+    height: 44px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color:rgba(76, 107, 82, 0);
+  
+}
+.am-list-item .am-input-label.am-input-label-5 {
+    width: 85px;
+    color: #fff;
+}
+.am-list-line{
+    border: 0;
+    padding-right: 0.2rem;
+}
+ 
+.toLogin{
+    margin: 0.2rem;
+    
+}
+.toLogin span{
+    color: rgba(1, 2, 1, 0.89);
+
+}

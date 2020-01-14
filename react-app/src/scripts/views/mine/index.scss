@@ -1,0 +1,84 @@
+.mine-box{
+    background-color: #fff;
+}
+.m-headCar{
+    // width: 100%;
+    height: 2.6rem;
+    margin: 0.18rem;
+    background-color: rgb(50, 78, 59);
+    color: #fff;
+    border-radius: 0.1rem;
+}
+.m-headCar .img{
+    width: 0.9rem;
+    height: 0.9rem;
+    border-radius: 50%;
+    float: left;
+    margin: 0.4rem 0 0.4rem 0.4rem;
+}
+.m-headCar h2{
+    float: left;
+    line-height: 0.4rem;
+    margin: 0.6rem 0.2rem;
+
+}
+.m-gotoLogin{
+    width: 0.8rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    font-size: 12px;
+    padding: 0;
+    color: rgb(50, 78, 59);
+    margin-top: 0.5rem;
+    margin-right: 0.2rem;
+    float: right;
+}
+.m-loginOut{
+    width: 1.4rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    font-size: 12px;
+    padding: 0;
+    color: rgb(50, 78, 59);
+    margin-top: 0.5rem;
+    margin-right: 0.2rem;
+    float: right;
+}
+.yhq{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yhqitem{
+    width: 30%;
+    text-align: center;
+    color: #fff !important;
+}
+a {
+    color: #fff;
+    
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color:#fff; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+.yhqitem p{
+    padding: 0.1rem 0;
+}
+.m-jgg{
+    color: rgb(53, 92, 62);
+}
+.am-grid .am-flexbox .am-flexbox-item .am-grid-item-content .am-grid-item-inner-content.column-num-3 .am-grid-text {
+    font-size: 12px;
+    padding-top: 0.2rem;
+    color: rgb(53, 92, 62);
+}
+.yhicon{
+    color:#fff
+} 
+
